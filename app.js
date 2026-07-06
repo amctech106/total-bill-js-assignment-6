@@ -33,5 +33,8 @@ add.addEventListener("click", function () {
         3% Discount is : ${discount}<br>
         Paid Amount is : ${totalAfterDis}
     `;
+//پرانا ڈیٹا اسٹور نہ کرے اس لیے آخر میں خالی ایرے دے دیا -------
+      bill=[];
   });
+
 });

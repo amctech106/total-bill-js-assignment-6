@@ -1,0 +1,33 @@
+body {
+  background-color: #f9e8a2;
+}
+.main {
+  width: 40%;
+  height: 80vh;
+  box-shadow: 3px 3px 20px black;
+  background-color: #ffff;
+  border-radius: 20px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+  width: 60%;
+}
+
+h6 {
+  font-size: large;
+  font-weight: 700;
+  word-spacing: 3px;
+  line-height: 30px;
+}

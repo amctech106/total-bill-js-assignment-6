@@ -8,22 +8,25 @@ let h6 = document.querySelector("h6");
 
 let bill = [];
 
+
+
 ///ایٹم ایڈ کیا جارہا ہے ----------------------------------
 
 add.addEventListener("click", function () {
   let num = parseFloat(inp.value);
-  bill.push(num/3*10);
+  bill.push(num);
 
   //نمبر ڈالنے کے بعد انپٹ خالی ہوجائے ---------------
 
   inp.value = "";
+});
 
   ///یہاں سے زلٹ شو کیا جا رہا ہے ۔ --------------  ---------
   
 
   show.addEventListener("click", function () {
     let total = Math.round(bill.reduce((item, total) => item + total, 0));
-    let discount = Math.round((3 / total) * 100);
+    let discount = Math.round( total*3 /100);
     let totalAfterDis = Math.round(total - discount);
 
     ///یہاں سے رزلٹ کا کام شروع ہو رہا ہے ۔ --------------------
@@ -35,6 +38,6 @@ add.addEventListener("click", function () {
     `;
 //پرانا ڈیٹا اسٹور نہ کرے اس لیے آخر میں خالی ایرے دے دیا -------
       bill=[];
-  });
+ 
 
 });

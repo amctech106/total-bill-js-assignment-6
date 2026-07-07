@@ -21,7 +21,7 @@ add.addEventListener("click", function () {
   inp.value = "";
 });
 
-  ///یہاں سے زلٹ شو کیا جا رہا ہے ۔ --------------  ---------
+  ///یہاں سے تمام ویلیوز کو جمع کرکے ڈسکاؤنٹ اپلائی کیا جارہا ہے  ۔ --
   
 
   show.addEventListener("click", function () {

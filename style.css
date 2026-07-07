@@ -31,3 +31,15 @@ h6 {
   word-spacing: 3px;
   line-height: 30px;
 }
+
+/* ریسپانسو اسکرین ---------- */
+
+@media (max-width:768px) {
+  .main {
+    width: 80%;
+  }
+
+  input, button {
+    width: 50%;
+  }
+}
